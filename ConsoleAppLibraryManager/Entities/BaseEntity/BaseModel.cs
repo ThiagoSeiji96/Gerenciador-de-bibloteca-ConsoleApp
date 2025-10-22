@@ -8,6 +8,6 @@ namespace ConsoleAppLibraryManager.Entities.BaseEntity
 {
     internal abstract class BaseModel
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
     }
 }
