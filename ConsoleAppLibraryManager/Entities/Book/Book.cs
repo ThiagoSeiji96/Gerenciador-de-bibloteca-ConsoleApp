@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleAppLibraryManager.Entities
+namespace ConsoleAppLibraryManager.Entities.Book
 {
     internal class Book : BaseModel
     {
