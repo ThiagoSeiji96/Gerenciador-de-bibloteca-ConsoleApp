@@ -36,8 +36,11 @@ namespace ConsoleAppLibraryManager.Application.BookServices
             Console.WriteLine();
         }
 
-        public void ShowBookById(string id)
+        public void ShowBookById()
         {
+            Console.WriteLine("Enter the ID of the book to search:");
+            var id = Console.ReadLine();
+
             var book = _books.FirstOrDefault(b => b.Id == Guid.Parse(id));
 
             if(book is null)
